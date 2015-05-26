@@ -1,0 +1,49 @@
+body {
+	/*背景图片URL地址*/
+	background-image: url(../img/bg5.jpg);
+	/*使背景图不随页面的滚动而滚动*/
+	background-attachment: fixed;
+	/*使背景图始终填满整个屏幕*/
+	background-size: cover;
+	/*使背景图居中*/
+	background-position: center;
+}
+
+.container {
+	/*容器宽度*/
+	width: 960px;
+	/*容器居中*/
+	margin: 0 auto;
+}
+
+.main-header {
+	margin-top: 100px;
+	/*padding: 1px 禁止 .main-header 折叠间距*/
+	padding: 1px;
+	background-image: url(../img/banner.jpg);
+	/*通过容器来居中行元素*/
+	text-align: center;
+}
+.main-header__avatar {
+	/*把行元素变成块元素*/
+	display: block;
+	margin: 0 auto;
+	margin-top: -70px;
+	margin-bottom: 10px;
+	border: 3px solid white;
+	/*把头像变成圆形*/
+	border-radius: 999px;
+	/*给头像加阴影*/
+	box-shadow: 0 0px 2px 1px rgba(0,0,0,0.2);
+	
+}
+
+.main-header h1 {
+	margin: 0px auto;
+	font-weight: 300;
+    font-size: 50px;
+    font-family: 'Open Sans','helvetica',arial,sans-serif;
+    text-shadow: 0 1px rgba(0,0,0,0.3);
+	margin-bottom: 20px;
+	color: #fff;
+}
